@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto Slab', serif; 
+    color: white;  
+}
+
+body{
+    background-color: black;
+}
+
+nav#link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    padding: 15px;
+    width: 70%;
+    margin-left: 16%;
+    margin-top: 10px;
+    
+}
+
+nav#link li{
+    margin-right: 25px;
+    display: inline-block;
+    
+}
+
+nav#link li>a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+article#banner{
+    height: 300px;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 3px;
+}
+
+h2#Nossa-equipe{
+    text-align: center;
+    margin: 20px;
+
+}
+
+section#caixas{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+section#sobre-nos{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+section#sobre-nos>h2{
+    font-size: 1.75rem;
+    
+}
+#caixas{
+    display: flex;
+    justify-content: center;
+    margin: 10px 75px;
+    
+}
+.caixas{
+    display:flex;
+    flex-direction: column;
+    height: 350px;
+    width: 300px;
+    margin-right: 80px;
+    align-items: center;
+}
+.caixas>img{
+    border-radius: 50%;
+    height: 65px;
+    margin-top: 10px;
+}
+.h2{
+    margin: 10px;
+}
+#laranja{
+    background-color: #c14000;
+}
+#ciano{
+    background-color: #009897;
+}
+#amarelo{
+    background-color: #FFAA00;
+    margin-right: 0;
+}
+.meu-linkedin{
+    display: flex;
+    margin-top: 75px;
+    padding: 10px;
+    border: 3px solid white;
+}
+
+section#nosso-negocio{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+section#nosso-negocio>nav{
+    background-color: #333333;
+    align-items: center;
+   
+}
+
+section#nosso-negocio nav>h2{
+    text-align: center;
+}
+
+section#nosso-negocio nav>p{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+section#nosso-negocio>img{
+width: 20%;
+height: 20%;
+
+}
+
+.leia-mais{
+    display: flex;
+    margin: 20px;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding: 10px;
+    border: 3px solid white;  
+}
+
+h2#projeto{
+    text-align: center;
+    margin: 20px;
+}
+
+p#projeto-texto{
+    text-align: center;
+    font-size: small;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+section#projetos-recentes>article{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 300px;
+   
+
+}
+
+section#projetos-recentes article>img{
+    width: 20%;
+    height: 20%;
+    margin-left: 30px;
+    
+}
+
+.veja-mais{
+    display: flex;
+    margin: 20px;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding: 10px;
+    padding-left: 27px;
+    border: 3px solid white;   
+}
+
+nav#links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    padding: 15px;
+}
+nav#links li{
+    display: inline-block;
+}
+nav#links li>a{
+    text-decoration: none;
+    padding: 15px;
+}
+
